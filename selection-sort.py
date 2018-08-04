@@ -7,7 +7,6 @@ def swap(arr1,idx1,idx2):
 
 """ given an array and the length of the array sort the array in place """
 def sel_sort(arr,n):
-	start = arr[:]
 	for i in range(0,n):
 		for j in range(0,n):
 			if arr[i]<arr[j]:
